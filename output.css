@@ -195,6 +195,9 @@
   .justify-center {
     justify-content: center;
   }
+  .gap-6 {
+    gap: calc(var(--spacing) * 6);
+  }
   .rounded {
     border-radius: 0.25rem;
   }
@@ -222,6 +225,9 @@
   }
   .py-3\.5 {
     padding-block: calc(var(--spacing) * 3.5);
+  }
+  .text-center {
+    text-align: center;
   }
   .text-3xl {
     font-size: var(--text-3xl);
