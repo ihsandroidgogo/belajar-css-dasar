@@ -191,6 +191,9 @@
   .w-full {
     width: 100%;
   }
+  .w-screen {
+    width: 100vw;
+  }
   .border-collapse {
     border-collapse: collapse;
   }
@@ -288,6 +291,11 @@
   }
   .active\:bg-red-500:active {
     background-color: var(--color-red-500);
+  }
+  @media (width >= 48rem) {
+    .md\:hidden {
+      display: none;
+    }
   }
   @media (width >= 64rem) {
     .lg\:grid-cols-3 {
