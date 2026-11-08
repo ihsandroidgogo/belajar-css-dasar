@@ -12,3 +12,8 @@ Server
 ```
 npx lite-server .
 ```
+
+Responsive Design
+
+Untuk "grid-cols-1" buat tampilan mobile
+Untuk "lg:grid-cols-3" untuk tampilan desktop
