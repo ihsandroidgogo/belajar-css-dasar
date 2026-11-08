@@ -17,3 +17,8 @@ Responsive Design
 
 Untuk "grid-cols-1" buat tampilan mobile
 Untuk "lg:grid-cols-3" untuk tampilan desktop
+
+Untuk menampilkan hamburger menu hanya di mobile saja :
+```
+<button class="md:hidden">Mobile Menu</button>
+```
