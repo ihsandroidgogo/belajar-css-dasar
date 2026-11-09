@@ -1,1 +1,9 @@
-@import 'tailwindcss';
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+/* tidak terlalu disarankan pakai @apply (opsi terakhir saja)*/
+@utility button {
+    @apply bg-blue-500 px-[20px] py-[10px] text-white rounded-lg hover:bg-blue-600 transition-colors duration-300;
+}
