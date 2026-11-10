@@ -1,1 +1,14 @@
 @import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark,.dark *));
+
+@theme {
+    --color-primary: #0069ff;
+    --text-besar: 2rem;
+}
+
+@layer components {
+    .button {
+        @apply bg-primary hover:bg-blue-700 active:bg-red-500 text-white font-bold py-3.5 px-6 rounded outline-none focus:ring-2 focus:ring-blue-300
+    }
+}
